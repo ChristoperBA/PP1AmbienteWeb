@@ -1,0 +1,23 @@
+.equipoHospital{
+    display: grid;
+    
+   
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    
+    justify-content: center;
+    gap: 4em;
+    width: 700px;
+    margin-left: 400px;
+    margin-right: 100px;
+    
+
+    
+}
+.description p{
+    font-size: 30px;
+    justify-content: center;
+}
+.equipoHospital div{
+   justify-content: center;
+}
